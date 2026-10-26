@@ -1,0 +1,8 @@
+name = "Deadline Rescuer"
+
+[auth]
+enabled = true
+providers = ["email"]
+
+# Task row access is enforced by /api/tasks and /api/collaboration, which check
+# ownership and an accepted collaboration_requests row before every shared read/write.
